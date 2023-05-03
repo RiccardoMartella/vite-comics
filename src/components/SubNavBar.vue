@@ -27,7 +27,7 @@ export default{
   div{
     display: flex;
     background-color: rgb(28, 28, 28);
-    height: 150px;
+    height: 15%;
     h1{
       color: white;
       width: 67%;

@@ -33,7 +33,7 @@ export default{
   div{
     display: flex;
     background-color:rgb(95, 99, 255);
-    height: 150px;
+    height:15% ;
     ul{
       width: 70%;
       margin: auto;
@@ -44,7 +44,7 @@ export default{
          align-items: center;
          list-style: none;
          img{
-           height: 75px;
+           height: 65px;
            margin-right: 10px;
        }
       }
