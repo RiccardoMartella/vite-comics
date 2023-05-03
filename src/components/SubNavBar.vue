@@ -29,6 +29,7 @@ export default{
     background-color: rgb(28, 28, 28);
     height: 150px;
     h1{
+      color: white;
       width: 67%;
       margin: auto;
     }

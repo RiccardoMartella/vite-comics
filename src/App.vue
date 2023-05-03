@@ -1,6 +1,7 @@
 <script>
 import NavBar from './components/NavBar.vue';
 import SubNavBar from './components/SubNavBar.vue'
+import Section from './components/Section.vue'
 
 export default{
     name: "AppVue",
@@ -9,7 +10,8 @@ export default{
     },
     components: { 
       NavBar,
-      SubNavBar
+      SubNavBar,
+      Section,
      }
 }
 </script>
@@ -18,6 +20,7 @@ export default{
 <template>
     <NavBar />
     <SubNavBar />
+    <Section />
 </template>
 
 <style lang="scss">
