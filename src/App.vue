@@ -22,7 +22,7 @@ export default{
 
 
 <template>
-  <div>
+  <div id="contenitore">
     <NavBar />
     <SubNavBar />
     <Section />
@@ -33,7 +33,8 @@ export default{
 
 <style lang="scss">
   @use './style/main.scss';
-  div{
+
+  #contenitore {
     height: 100vh;
   }
 </style>
