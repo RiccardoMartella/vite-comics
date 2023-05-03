@@ -1,22 +1,23 @@
 <script>
 import NavBar from './components/NavBar.vue';
-
+import SubNavBar from './components/SubNavBar.vue'
 
 export default{
     name: "AppVue",
     data() {
         return {};
     },
-    components: { NavBar }
+    components: { 
+      NavBar,
+      SubNavBar
+     }
 }
 </script>
 
 
 <template>
-  <div>
     <NavBar />
-
-  </div>
+    <SubNavBar />
 </template>
 
 <style lang="scss">

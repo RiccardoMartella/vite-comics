@@ -1,12 +1,12 @@
 <script>
 
+
+
 export default{
     name: "NavBar",
     data() {
-        return {
-            
-        }
-    }
+    },
+    
 }
 
 </script>
@@ -27,7 +27,6 @@ export default{
             <li>SHOIP</li>
         </ul>
     </nav>
-
 </template>
 
 <style scoped>
