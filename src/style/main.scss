@@ -1,0 +1,15 @@
+@import './partials/variables.scss';
+
+nav{  
+    display: flex;
+
+    ul{
+        display: flex;
+      li{
+         margin:0 10px ;
+         font-size: 15px;
+         list-style: none;
+        
+      }  
+   }   
+}
