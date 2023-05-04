@@ -110,7 +110,7 @@ export default{
       
       width: 67%;
       margin: auto;
-      padding: 40px 0;
+      padding: 40px 0 20px 0;
     }
    
    .contenitore-cards{
