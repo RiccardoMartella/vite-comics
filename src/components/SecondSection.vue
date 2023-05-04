@@ -90,6 +90,15 @@ export default{
     }
  }
 
+ ul{
+    h3{
+        margin-top: 45px;
+    }
+ }
+
+ section{
+    overflow: hidden;
+ }
  .contenitore-generale{
     width: 67%;
     margin: auto;
@@ -104,10 +113,11 @@ export default{
 }
 
 .overflow{
-    margin-left: 300px;
+    margin-left: 150px;
     img{
-         height:300px;
+         height:550px;
          overflow: hidden;
+        
     }
 }
 </style>
