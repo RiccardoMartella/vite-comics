@@ -5,11 +5,11 @@ import CardsComp from '../components/CardsComp.vue';
 export default{
     name: "SubNavBar",
     data() {
-        return {};
-      },
-       components: { 
-        CardsComp,
-     }
+      return {};
+    },
+    components: { 
+      CardsComp,
+    }
 }
 
 </script>
@@ -25,12 +25,6 @@ export default{
   </div>
 </template>
   
-
-<style >
-
-    
-</style>
-
 <style scoped lang="scss">
   .contenitore-sfondo{
     background-image:url(../assets/img/jumbotron.jpg);

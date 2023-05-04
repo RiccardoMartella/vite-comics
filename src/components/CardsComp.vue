@@ -1,10 +1,15 @@
 <script>
 
+import Card from '../components/Card.vue';
+
 export default{
     name: "CardsComp",
+    components: {
+      Card
+    },
     data() {
         return {
-            Cards :[
+            cards: [
                {
                  "thumb": "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
                  "price": "$19.99",
@@ -79,7 +84,7 @@ export default{
                }
             ]
         }
-    }
+      }
 }
 
 </script>
@@ -87,16 +92,10 @@ export default{
 <template>
     <div>
         <div class="contenitore-margin">
-           <div class="contenitore-cards" v-for="(element,index) in Cards" :key="index">
-             <img v-bind:src="element.thumb" alt="">
-             {{ element.price }}
-            </div>
+           <Card :cardContent="element" class="contenitore-cards" v-for="(element, index) in cards" :key="index" />
         </div>
     </div>
 </template>
-  
-
-
 
 <style scoped lang="scss">
    div{
@@ -107,7 +106,6 @@ export default{
    }
 
    .contenitore-margin{
-      
       width: 67%;
       margin: auto;
       padding: 40px 0 20px 0;
@@ -120,7 +118,5 @@ export default{
       width: calc(100% / 6 - 10px);
    }
 
-   img{
-    height: 180px;
-   }
+   
 </style>
