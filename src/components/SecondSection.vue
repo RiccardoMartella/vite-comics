@@ -55,7 +55,7 @@ export default{
             <li>TV</li>         
         </ul>
         <div class="overflow">
-            <img src="./../assets/img/dc-logo-bg.png"  alt="">
+            
         </div>
      </div>
     
@@ -77,7 +77,7 @@ export default{
     background-image: url(../assets/img/footer-bg.jpg);   
     background-size: cover;
     div{
-        display: flex;
+        display: flex; 
        ul{
         list-style: none;
         color: white;
@@ -92,7 +92,7 @@ export default{
 
  ul{
     h3{
-        margin-top: 45px;
+        margin-top: 30px;
     }
  }
 
@@ -113,11 +113,10 @@ export default{
 }
 
 .overflow{
-    margin-left: 150px;
-    img{
-         height:550px;
-         overflow: hidden;
-        
-    }
+    width: 100%;
+    background-image: url(../assets/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center right;
 }
 </style>
